@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "DemoApp",
+    "description": "COVID-19 DemoApp",
+    "slug": "demoapp-react-native",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.12",
+    "orientation": "portrait",
+    "icon": "./assets/icon-1.png",
+    "splash": {
+      "image": "./assets/splash-2.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.app.demoApp",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.app.demoApp",
+      "versionCode": 5,
+      "permissions": []
+    }
+  }
+}
